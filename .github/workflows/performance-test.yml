@@ -1,3 +1,4 @@
+# Workflow principal de la implementación Java.
 name: JMeter performance test and Java PPTX report
 
 on:
@@ -143,4 +144,3 @@ jobs:
         run: |
           cat output/fail-fast.txt
           exit 1
-
